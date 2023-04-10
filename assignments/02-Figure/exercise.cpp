@@ -17,5 +17,13 @@ int main()
     arr[i]->dibuja();
   }
 
+  // Liberando memoria -------------------
+
+  for (auto i=0; i < 5;i++)
+  {
+    delete arr[i];
+  }
+
+
   return 0;
 }

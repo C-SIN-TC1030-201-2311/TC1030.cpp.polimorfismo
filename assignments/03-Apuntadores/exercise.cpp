@@ -29,5 +29,15 @@ int main()
 
   std::cout << ptrFig2->draw() << "\n";
 
+// Liberando memoria --------------------------------------------------
+
+    delete ptrInt2;
+    delete ptrFig2;
+
+// ¿Porqué no liberar memoria para fig y ptrFig?
+
+//  delete ptrFig;
+//  delete ptrInt;
+  
   return 0;
 }

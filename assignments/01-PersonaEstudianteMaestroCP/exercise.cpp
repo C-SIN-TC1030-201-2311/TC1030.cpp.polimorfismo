@@ -19,5 +19,12 @@ int main()
     listaPer[i]->muestraDatos();
   }
 
+  // Liberando memoria -------------------
+
+  for (auto i=0; i < 5;i++)
+  {
+    delete listaPer[i];
+  }
+
   return 0;
 }
