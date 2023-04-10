@@ -6,6 +6,7 @@ class Persona {
 public:
     Persona();
     Persona(std::string, int);
+    ~Persona();
 
     std::string getNombre();
     void setNombre(std::string);

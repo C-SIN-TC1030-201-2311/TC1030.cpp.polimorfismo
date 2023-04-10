@@ -6,6 +6,9 @@ Persona::Persona() {
     edad=0;
 }
 
+Persona::~Persona() {
+}
+
 Persona::Persona(std::string nom, int ed)
 {
     nombre = nom;
