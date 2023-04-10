@@ -9,7 +9,7 @@ public:
 
     std::string getDepto();
     void setDepto(std::string);
-    void muestraDatos();
+    void muestraDatos() override;
 private:
     std::string depto;
 };

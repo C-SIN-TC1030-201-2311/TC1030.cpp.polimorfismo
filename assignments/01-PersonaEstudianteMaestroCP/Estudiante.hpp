@@ -11,7 +11,7 @@ public:
     std::string getCarrera();
     void setCarrera(std::string);
 
-    void muestraDatos();
+    void muestraDatos() override;
 
 private:
     std::string carrera;
