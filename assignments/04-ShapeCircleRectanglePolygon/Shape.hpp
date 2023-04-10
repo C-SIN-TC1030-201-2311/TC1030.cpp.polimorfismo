@@ -9,7 +9,7 @@ private:
 public:
     Shape();
     Shape(int, int);
-    ~Shape();
+    virtual ~Shape();
     virtual std::string draw();
 
     int getValueX();
