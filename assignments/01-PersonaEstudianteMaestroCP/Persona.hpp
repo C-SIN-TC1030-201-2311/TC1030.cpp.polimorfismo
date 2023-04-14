@@ -14,7 +14,7 @@ public:
     int getEdad();
     void setEdad(int);
 
-    virtual void muestraDatos();
+    virtual void muestraDatos(); // Es virtual, se puede hacer polimorfismo con esta función miembro
 
 protected:
     std::string nombre;
