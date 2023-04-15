@@ -12,7 +12,7 @@ private:
 public:
     Rectangle();
     Rectangle(int, int, int, int);
-    std::string draw() override;
 
+    std::string draw() override;
     double getArea() override;    
 };

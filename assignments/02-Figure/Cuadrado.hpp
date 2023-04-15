@@ -4,5 +4,5 @@
 
 class Cuadrado:public Figura {
 public:
-    void dibuja();    
+    void dibuja() override;    
 };

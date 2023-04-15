@@ -9,6 +9,7 @@ private:
 public:
     Circle();
     Circle(int, int, int);
+    
     int getRadio();
 
     std::string draw() override;
